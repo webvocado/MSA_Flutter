@@ -75,9 +75,18 @@ class _ListviewscreenState extends State<Listviewscreen> {
                     ],
                   );
                   // Dialog 실행
-                  showDialog(
-                    context: context, 
-                    builder: (BuildContext context) => dialog
+                  // showDialog(
+                  //   context: context, 
+                  //   builder: (BuildContext context) => dialog
+                  // );
+                  // 상세화면으로 이동
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Detailscreen(
+                        student: widget.list[position],
+                      ),
+                    ),
                   );
                 },
                 // 길게 눌렀을 때

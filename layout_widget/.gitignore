@@ -31,13 +31,24 @@ migrate_working_dir/
 .pub/
 /build/
 
+# iOS 관련 파일
+**/ios/Pods/
+**/ios/*.xcworkspace
+**/ios/*.xcodeproj
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.podspec
+
+# Android 관련 파일
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle
+/android/build/
+/android/*/build/
+
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release

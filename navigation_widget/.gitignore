@@ -38,6 +38,7 @@ migrate_working_dir/
 **/ios/Flutter/Flutter.framework
 **/ios/Flutter/App.framework
 **/ios/Flutter/Flutter.podspec
+**/ios/
 
 # Android 관련 파일
 /android/app/debug
@@ -46,6 +47,7 @@ migrate_working_dir/
 /android/.gradle
 /android/build/
 /android/*/build/
+/android/
 
 # Symbolication related
 app.*.symbols
